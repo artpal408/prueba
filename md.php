@@ -5,7 +5,7 @@
 
         ?>
 
-        <li> <?php echo $v['noticias'] ?> </li>
+        <li> <?php echo $v['titulo'] ?> </li>
 
         <?php
     }

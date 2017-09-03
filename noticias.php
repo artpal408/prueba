@@ -26,11 +26,12 @@ else {
 //    echo 'Fallo al eliminar noticias';
 //}
 //
-//$noticias = $enlace->multiples_datos("SELECT * FROM noticias");
+$noticias = $enlace->multiples_datos("SELECT * FROM noticias");
 //
 //
 //$noticias = $enlace->datos("select * from noticias where id = 1");
 //
 
+include_once 'md.php';
 
 ?>
